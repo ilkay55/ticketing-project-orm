@@ -126,5 +126,4 @@ public class UserDTO {
     public void setGender(Gender gender) {
         this.gender = gender;
     }
-
 }
