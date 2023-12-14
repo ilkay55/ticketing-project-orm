@@ -15,6 +15,8 @@ import java.time.LocalDate;
 @Data
 public class ProjectDTO {
 
+
+
     @NotBlank
     private String projectName;
 
@@ -41,6 +43,7 @@ public class ProjectDTO {
     private int unfinishedTaskCounts;
 
     public ProjectDTO(String projectName, String projectCode, UserDTO assignedManager, LocalDate startDate, LocalDate endDate, String projectDetail, Status projectStatus) {
+
         this.projectName = projectName;
         this.projectCode = projectCode;
         this.assignedManager = assignedManager;

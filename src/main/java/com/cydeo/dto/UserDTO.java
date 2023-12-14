@@ -14,7 +14,9 @@ import javax.validation.constraints.*;
 @ToString
 public class UserDTO {
 
-    @NotBlank
+    private Long id;
+
+      @NotBlank
     @Size(max = 15, min = 2)
     private String firstName;
 
@@ -69,6 +71,10 @@ public class UserDTO {
         }else if(!this.passWord.equals(confirmPassWord)){
             this.confirmPassWord = null;
         }
+    }
+
+    public Long getId() {
+        return id;
     }
 
     public String getFirstName() {
