@@ -9,4 +9,6 @@ insert into users(insert_date_time, insert_user_id, is_deleted, last_update_date
 values ('2022-01-05 00:00:00', 1, false, '2022-01-05 00:00:00', 1, true, 'admin', 'MALE', 'admin', 'admin@admin.com',
         1),
         ('2022-01-05 00:00:00', 2, false, '2022-01-05 00:00:00', 2, true, 'manager', 'MALE', 'managerson', 'manager@admin.com',
-    2);
+    2),
+('2022-01-06 00:00:00', 4, false, '2023-01-05 00:00:00', 4, true, 'Emp', 'MALE', 'Loyee', 'employee1@admin.com',
+    3);
